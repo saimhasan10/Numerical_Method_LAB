@@ -1,5 +1,5 @@
 //  implementation of Regular Falsi Method for solving equations
-//  The function is x^3 - x^2  + 2
+//  The function is x^3 - x^2  + 3
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -9,7 +9,7 @@ using namespace std;
 // solve the function equation
 double func(double x)
 {
-    return x * x * x - x * x + 2;
+    return x * x * x - x * x + 3;
 }
 
 void falsePosition(double a, double b)
